@@ -1,0 +1,28 @@
+html{
+	font-size:$root-font;
+}
+body{
+	font-size:$base-font;
+}
+header{
+	background: $back-style;
+}
+nav li{
+	float:$primary-float; 
+	list-style-type:$primary-style;
+}
+
+header img{
+	float:$primary-float;
+	width: $img-width;
+	height:$img-height;
+}
+
+.cf:after, .cf:before{
+	content: '';
+	display: table;
+}
+
+.cf:after{
+	clear: both;
+}
