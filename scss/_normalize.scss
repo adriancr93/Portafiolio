@@ -6,17 +6,38 @@ body{
 }
 header{
 	background: $back-style;
+	position:fixed;
+	width:100%;
+}
+header nav{
+	margin-left:50%;
+}
+.contenedor{
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 nav li{
 	float:$primary-float; 
 	list-style-type:$primary-style;
+	display:block;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+nav li > a{
+	color:$letter-color;
+	display:block;
+}
+nav li > a:hover{
+	color:#000;
+	text-decoration: none;
 }
 
 header img{
 	float:$primary-float;
 	width: $img-width;
 	height:$img-height;
-}
+} 
 
 .cf:after, .cf:before{
 	content: '';
@@ -25,4 +46,47 @@ header img{
 
 .cf:after{
 	clear: both;
+}
+
+.imageHeader{
+	width:90%;
+	height:100px;
+}
+
+.main section{
+	width:30%;
+	float:left;
+	text-align:center;
+}
+
+h3{
+	margin-top:22%;
+}
+
+.portofolio{
+	width:50%;
+}
+
+.section_3{
+	background-color: #ecf0f1;
+	width: 100%;
+}
+.section_3 p{
+	text-align: center;
+	margin-bottom: 31px;
+	color:#444;
+}
+.section_3 h3{
+	color:#444;
+}
+
+.section_3 button{
+   background-color: #1bbc9b;
+   color:#fff;
+   padding: 0.5% 1em;
+   border:1px solid #1bbc9b;
+   margin-left: 56.2%;
+}
+.section_3 form{
+	margin-left: 26%;
 }
